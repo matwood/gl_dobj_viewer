@@ -11,8 +11,17 @@ Right now it is a working XCode 4.0 project, but it doesn't require XCode or OSX
 Requirements
 ------------
 
-OpenGL
-GLUT
-C++ compiler
+* OpenGL
+* GLUT
+* C++ compiler
+* D Object Files (Included)
 
 There is no make file right now.  If someone does put one together for another system I will add it to this repository.
+
+Build the application then run it:
+    ./application skull.d
+
+Known Issues
+------------
+
+XCode and the default debugging options do not work with the STL and cause the application to crash.  If compiling under XCode, compile with the standard release build options and not the debug options.
