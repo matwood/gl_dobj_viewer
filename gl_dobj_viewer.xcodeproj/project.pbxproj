@@ -1,0 +1,395 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		770DEA380E00CA9E003A7539 /* matrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 770DEA370E00CA9E003A7539 /* matrix.cpp */; };
+		7718EC7F0E0428EC0059FB9F /* matrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 770DEA370E00CA9E003A7539 /* matrix.cpp */; };
+		777924420DEEF09100F4E4D9 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 777924400DEEF09100F4E4D9 /* GLUT.framework */; };
+		777924430DEEF09100F4E4D9 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 777924410DEEF09100F4E4D9 /* OpenGL.framework */; };
+		7779248A0DF0C4F100F4E4D9 /* vec3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 777924890DF0C4F100F4E4D9 /* vec3.cpp */; };
+		777924970DF31CAC00F4E4D9 /* dobj.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 777924960DF31CAC00F4E4D9 /* dobj.cpp */; };
+		777924D90DF3216400F4E4D9 /* vert3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 777924D80DF3216400F4E4D9 /* vert3.cpp */; };
+		777924EE0DF3265A00F4E4D9 /* cube.d in Sources */ = {isa = PBXBuildFile; fileRef = 777924ED0DF3265A00F4E4D9 /* cube.d */; };
+		777925B80DF33EC200F4E4D9 /* skull.d in Sources */ = {isa = PBXBuildFile; fileRef = 777925B60DF33EC200F4E4D9 /* skull.d */; };
+		777925B90DF33EC200F4E4D9 /* soccer.d in Sources */ = {isa = PBXBuildFile; fileRef = 777925B70DF33EC200F4E4D9 /* soccer.d */; };
+		777927570DF42CD300F4E4D9 /* dragon.d in Sources */ = {isa = PBXBuildFile; fileRef = 777927560DF42CD300F4E4D9 /* dragon.d */; };
+		777928520DF5F0C500F4E4D9 /* teapot_dec.d in Sources */ = {isa = PBXBuildFile; fileRef = 777928510DF5F0C500F4E4D9 /* teapot_dec.d */; };
+		7779288A0DF5F30100F4E4D9 /* airplane.d in Sources */ = {isa = PBXBuildFile; fileRef = 777928880DF5F30100F4E4D9 /* airplane.d */; };
+		7779288B0DF5F30100F4E4D9 /* ship.d in Sources */ = {isa = PBXBuildFile; fileRef = 777928890DF5F30100F4E4D9 /* ship.d */; };
+		77792A3F0DF7678400F4E4D9 /* capital.d in Sources */ = {isa = PBXBuildFile; fileRef = 77792A3A0DF7678400F4E4D9 /* capital.d */; };
+		77792A400DF7678400F4E4D9 /* fractal1.d in Sources */ = {isa = PBXBuildFile; fileRef = 77792A3B0DF7678400F4E4D9 /* fractal1.d */; };
+		77792A410DF7678400F4E4D9 /* fractal2.d in Sources */ = {isa = PBXBuildFile; fileRef = 77792A3C0DF7678400F4E4D9 /* fractal2.d */; };
+		77792A420DF7678400F4E4D9 /* helix.d in Sources */ = {isa = PBXBuildFile; fileRef = 77792A3D0DF7678400F4E4D9 /* helix.d */; };
+		77792A430DF7678400F4E4D9 /* trek.d in Sources */ = {isa = PBXBuildFile; fileRef = 77792A3E0DF7678400F4E4D9 /* trek.d */; };
+		77792A7B0DFDF59200F4E4D9 /* gentube.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 77792A7A0DFDF59200F4E4D9 /* gentube.cpp */; };
+		77B7AE2D0DFE1DA30094B488 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 777924400DEEF09100F4E4D9 /* GLUT.framework */; };
+		77B7AE2E0DFE1DA30094B488 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 777924410DEEF09100F4E4D9 /* OpenGL.framework */; };
+		77B7AE2F0DFE1DAD0094B488 /* vec3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 777924890DF0C4F100F4E4D9 /* vec3.cpp */; };
+		77B7AE300DFE1DAD0094B488 /* dobj.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 777924960DF31CAC00F4E4D9 /* dobj.cpp */; };
+		77B7AE310DFE1DAD0094B488 /* vert3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 777924D80DF3216400F4E4D9 /* vert3.cpp */; };
+		8DD76F650486A84900D96B5E /* dview.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 08FB7796FE84155DC02AAC07 /* dview.cpp */; settings = {ATTRIBUTES = (); }; };
+		8DD76F6A0486A84900D96B5E /* proj3.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C6859E8B029090EE04C91782 /* proj3.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8DD76F690486A84900D96B5E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = usr/share/man/man1;
+			dstSubfolderSpec = 0;
+			files = (
+				8DD76F6A0486A84900D96B5E /* proj3.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		08FB7796FE84155DC02AAC07 /* dview.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = dview.cpp; sourceTree = "<group>"; };
+		770DEA360E00CA9E003A7539 /* matrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = matrix.h; sourceTree = "<group>"; };
+		770DEA370E00CA9E003A7539 /* matrix.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = matrix.cpp; sourceTree = "<group>"; };
+		777924400DEEF09100F4E4D9 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = /System/Library/Frameworks/GLUT.framework; sourceTree = "<absolute>"; };
+		777924410DEEF09100F4E4D9 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+		777924880DF0C4DC00F4E4D9 /* vec3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vec3.h; sourceTree = "<group>"; };
+		777924890DF0C4F100F4E4D9 /* vec3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vec3.cpp; sourceTree = "<group>"; };
+		777924950DF31CAC00F4E4D9 /* dobj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dobj.h; sourceTree = "<group>"; };
+		777924960DF31CAC00F4E4D9 /* dobj.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = dobj.cpp; sourceTree = "<group>"; };
+		777924D70DF3216400F4E4D9 /* vert3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vert3.h; sourceTree = "<group>"; };
+		777924D80DF3216400F4E4D9 /* vert3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vert3.cpp; sourceTree = "<group>"; };
+		777924ED0DF3265A00F4E4D9 /* cube.d */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.dtrace; path = cube.d; sourceTree = "<group>"; };
+		777925B60DF33EC200F4E4D9 /* skull.d */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.dtrace; path = skull.d; sourceTree = "<group>"; };
+		777925B70DF33EC200F4E4D9 /* soccer.d */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.dtrace; path = soccer.d; sourceTree = "<group>"; };
+		777927560DF42CD300F4E4D9 /* dragon.d */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.dtrace; path = dragon.d; sourceTree = "<group>"; };
+		777928510DF5F0C500F4E4D9 /* teapot_dec.d */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.dtrace; path = teapot_dec.d; sourceTree = "<group>"; };
+		777928880DF5F30100F4E4D9 /* airplane.d */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.dtrace; path = airplane.d; sourceTree = "<group>"; };
+		777928890DF5F30100F4E4D9 /* ship.d */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.dtrace; path = ship.d; sourceTree = "<group>"; };
+		77792A3A0DF7678400F4E4D9 /* capital.d */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.dtrace; path = capital.d; sourceTree = "<group>"; };
+		77792A3B0DF7678400F4E4D9 /* fractal1.d */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.dtrace; path = fractal1.d; sourceTree = "<group>"; };
+		77792A3C0DF7678400F4E4D9 /* fractal2.d */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.dtrace; path = fractal2.d; sourceTree = "<group>"; };
+		77792A3D0DF7678400F4E4D9 /* helix.d */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.dtrace; path = helix.d; sourceTree = "<group>"; };
+		77792A3E0DF7678400F4E4D9 /* trek.d */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.dtrace; path = trek.d; sourceTree = "<group>"; };
+		77792A750DFDF56600F4E4D9 /* gentube */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = gentube; sourceTree = BUILT_PRODUCTS_DIR; };
+		77792A7A0DFDF59200F4E4D9 /* gentube.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gentube.cpp; sourceTree = "<group>"; };
+		8DD76F6C0486A84900D96B5E /* dview */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = dview; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6859E8B029090EE04C91782 /* proj3.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = proj3.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		77792A730DFDF56600F4E4D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77B7AE2D0DFE1DA30094B488 /* GLUT.framework in Frameworks */,
+				77B7AE2E0DFE1DA30094B488 /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DD76F660486A84900D96B5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				777924420DEEF09100F4E4D9 /* GLUT.framework in Frameworks */,
+				777924430DEEF09100F4E4D9 /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08FB7794FE84155DC02AAC07 /* proj3 */ = {
+			isa = PBXGroup;
+			children = (
+				777924EC0DF3261900F4E4D9 /* objs */,
+				777924400DEEF09100F4E4D9 /* GLUT.framework */,
+				777924410DEEF09100F4E4D9 /* OpenGL.framework */,
+				08FB7795FE84155DC02AAC07 /* Source */,
+				C6859E8C029090F304C91782 /* Documentation */,
+				1AB674ADFE9D54B511CA2CBB /* Products */,
+			);
+			name = proj3;
+			sourceTree = "<group>";
+		};
+		08FB7795FE84155DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				08FB7796FE84155DC02AAC07 /* dview.cpp */,
+				777924880DF0C4DC00F4E4D9 /* vec3.h */,
+				777924890DF0C4F100F4E4D9 /* vec3.cpp */,
+				777924950DF31CAC00F4E4D9 /* dobj.h */,
+				777924960DF31CAC00F4E4D9 /* dobj.cpp */,
+				777924D70DF3216400F4E4D9 /* vert3.h */,
+				777924D80DF3216400F4E4D9 /* vert3.cpp */,
+				77792A7A0DFDF59200F4E4D9 /* gentube.cpp */,
+				770DEA360E00CA9E003A7539 /* matrix.h */,
+				770DEA370E00CA9E003A7539 /* matrix.cpp */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		1AB674ADFE9D54B511CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DD76F6C0486A84900D96B5E /* dview */,
+				77792A750DFDF56600F4E4D9 /* gentube */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		777924EC0DF3261900F4E4D9 /* objs */ = {
+			isa = PBXGroup;
+			children = (
+				77792A3A0DF7678400F4E4D9 /* capital.d */,
+				77792A3B0DF7678400F4E4D9 /* fractal1.d */,
+				77792A3C0DF7678400F4E4D9 /* fractal2.d */,
+				77792A3D0DF7678400F4E4D9 /* helix.d */,
+				77792A3E0DF7678400F4E4D9 /* trek.d */,
+				777928880DF5F30100F4E4D9 /* airplane.d */,
+				777928890DF5F30100F4E4D9 /* ship.d */,
+				777928510DF5F0C500F4E4D9 /* teapot_dec.d */,
+				777927560DF42CD300F4E4D9 /* dragon.d */,
+				777925B60DF33EC200F4E4D9 /* skull.d */,
+				777925B70DF33EC200F4E4D9 /* soccer.d */,
+				777924ED0DF3265A00F4E4D9 /* cube.d */,
+			);
+			name = objs;
+			sourceTree = "<group>";
+		};
+		C6859E8C029090F304C91782 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+				C6859E8B029090EE04C91782 /* proj3.1 */,
+			);
+			name = Documentation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		77792A740DFDF56600F4E4D9 /* gentube */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77792A790DFDF58500F4E4D9 /* Build configuration list for PBXNativeTarget "gentube" */;
+			buildPhases = (
+				77792A720DFDF56600F4E4D9 /* Sources */,
+				77792A730DFDF56600F4E4D9 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = gentube;
+			productName = gentube;
+			productReference = 77792A750DFDF56600F4E4D9 /* gentube */;
+			productType = "com.apple.product-type.tool";
+		};
+		8DD76F620486A84900D96B5E /* dview */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB923108733DC60010E9CD /* Build configuration list for PBXNativeTarget "dview" */;
+			buildPhases = (
+				8DD76F640486A84900D96B5E /* Sources */,
+				8DD76F660486A84900D96B5E /* Frameworks */,
+				8DD76F690486A84900D96B5E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = dview;
+			productInstallPath = "$(HOME)/bin";
+			productName = proj3;
+			productReference = 8DD76F6C0486A84900D96B5E /* dview */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 1DEB923508733DC60010E9CD /* Build configuration list for PBXProject "gl_dobj_viewer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 08FB7794FE84155DC02AAC07 /* proj3 */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DD76F620486A84900D96B5E /* dview */,
+				77792A740DFDF56600F4E4D9 /* gentube */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		77792A720DFDF56600F4E4D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77792A7B0DFDF59200F4E4D9 /* gentube.cpp in Sources */,
+				77B7AE2F0DFE1DAD0094B488 /* vec3.cpp in Sources */,
+				77B7AE300DFE1DAD0094B488 /* dobj.cpp in Sources */,
+				77B7AE310DFE1DAD0094B488 /* vert3.cpp in Sources */,
+				770DEA380E00CA9E003A7539 /* matrix.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DD76F640486A84900D96B5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7718EC7F0E0428EC0059FB9F /* matrix.cpp in Sources */,
+				8DD76F650486A84900D96B5E /* dview.cpp in Sources */,
+				7779248A0DF0C4F100F4E4D9 /* vec3.cpp in Sources */,
+				777924970DF31CAC00F4E4D9 /* dobj.cpp in Sources */,
+				777924D90DF3216400F4E4D9 /* vert3.cpp in Sources */,
+				777924EE0DF3265A00F4E4D9 /* cube.d in Sources */,
+				777925B80DF33EC200F4E4D9 /* skull.d in Sources */,
+				777925B90DF33EC200F4E4D9 /* soccer.d in Sources */,
+				777927570DF42CD300F4E4D9 /* dragon.d in Sources */,
+				777928520DF5F0C500F4E4D9 /* teapot_dec.d in Sources */,
+				7779288A0DF5F30100F4E4D9 /* airplane.d in Sources */,
+				7779288B0DF5F30100F4E4D9 /* ship.d in Sources */,
+				77792A3F0DF7678400F4E4D9 /* capital.d in Sources */,
+				77792A400DF7678400F4E4D9 /* fractal1.d in Sources */,
+				77792A410DF7678400F4E4D9 /* fractal2.d in Sources */,
+				77792A420DF7678400F4E4D9 /* helix.d in Sources */,
+				77792A430DF7678400F4E4D9 /* trek.d in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB923208733DC60010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"_GLIBCXX_DEBUG=1",
+					"_GLIBCXX_DEBUG_PEDANTIC=1",
+				);
+				GCC_VERSION = 4.2;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = dview;
+				SDKROOT = "";
+			};
+			name = Debug;
+		};
+		1DEB923308733DC60010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_VERSION = 4.2;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = gl_dobj_viewer;
+				SDKROOT = "";
+			};
+			name = Release;
+		};
+		1DEB923608733DC60010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1DEB923708733DC60010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		77792A770DFDF56700F4E4D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = gentube;
+			};
+			name = Debug;
+		};
+		77792A780DFDF56700F4E4D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = gentube;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB923108733DC60010E9CD /* Build configuration list for PBXNativeTarget "dview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB923208733DC60010E9CD /* Debug */,
+				1DEB923308733DC60010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB923508733DC60010E9CD /* Build configuration list for PBXProject "gl_dobj_viewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB923608733DC60010E9CD /* Debug */,
+				1DEB923708733DC60010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77792A790DFDF58500F4E4D9 /* Build configuration list for PBXNativeTarget "gentube" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77792A770DFDF56700F4E4D9 /* Debug */,
+				77792A780DFDF56700F4E4D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}
